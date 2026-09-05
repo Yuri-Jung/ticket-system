@@ -35,3 +35,8 @@ spring:
 logging:
   level:
     org.hibernate.SQL: debug
+
+ticket:
+  queue:
+    admission-batch-size: 50
+    active-token-ttl: 5m
